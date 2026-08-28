@@ -6,7 +6,7 @@
 
 **1.** Antes de desenhar o Modelo Entidade-Relacionamento de um sistema de vendas, a equipe entrevista os funcionários da loja para levantar quais informações precisam ser armazenadas (produtos, clientes, pedidos) e quais regras de negócio existem (ex.: um pedido não pode ser fechado sem pelo menos um produto). Qual etapa do projeto de banco de dados corresponde a esse levantamento?
 
-- [ ] a) Análise de requisitos, etapa de levantamento de informações e regras junto aos usuários
+- [x] a) Análise de requisitos, etapa de levantamento de informações e regras junto aos usuários
 - [ ] b) Modelo físico
 - [ ] c) Linguagem SQL, pois é a ferramenta usada para entrevistar os usuários e registrar as regras de negócio do sistema
 - [ ] d) DML, pois manipula os dados armazenados
