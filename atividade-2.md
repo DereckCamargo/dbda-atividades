@@ -12,14 +12,14 @@
 - [ ] d) DML, pois manipula os dados armazenados
 - [ ] e) Nenhuma etapa de levantamento é necessária: basta desenhar diretamente o Modelo Entidade-Relacionamento a partir da experiência da equipe
 
-**Justificativa:** <escreva aqui sua justificativa>
+**Justificativa:** A descrição da alternativa descreve a primeira etapa da criação de um Banco de Dados, onde é necessário justamente descobrir o que o cliente vai querer, nesse caso os funcionários da loja, para saber como a organização dele vai ser feita, quais tabelas terão, quais regras possuem, etc. Nesse caso, a primeira etapa é a Análise de requisitos.
 
 **2.** No Modelo Entidade-Relacionamento de uma loja, a entidade "Pedido" se relaciona com a entidade "Produto": um pedido pode conter vários produtos, e um mesmo produto pode aparecer em vários pedidos diferentes. Que tipo de relacionamento é esse?
 
 - [ ] a) Relacionamento um-para-um (1:1), pois cada pedido está associado a exatamente um único produto, e vice-versa
 - [ ] b) Relacionamento um-para-muitos (1:N), pois um produto só pode estar em um único pedido
 - [ ] c) Não existe relacionamento entre essas entidades
-- [ ] d) Relacionamento muitos-para-muitos (N:N)
+- [x] d) Relacionamento muitos-para-muitos (N:N)
 - [ ] e) Relacionamento muitos-para-um, pois um produto sempre pertence a um único pedido dentro do sistema de vendas
 
-**Justificativa:** <escreva aqui sua justificativa>
+**Justificativa:** Como um mesmo pedido pode conter vários produtos e um mesmo produto pode aparecer em diversos pedidos, a relação acaba sendo de muitos-para-muitos, N:N.
